@@ -17,4 +17,9 @@ cd metasploit-framework/
 sudo gem install bundler
 bundle install
 sudo apt install sqlmap -y
-
+sudo apt install gobuster
+sudo apt install aircrack-ng -y
+git clone https://github.com/trustedsec/social-engineer-toolkit/ set/
+cd set
+pip install -r requirements.txt
+python3 setup.py         
